@@ -3,6 +3,19 @@
            https://api.github.com/users/<your name>
 */
 
+axios.get('https://api.github.com/users/Aliszl')
+  .then(response => {
+    console.log(response);
+  })
+  .catch(error => {
+    console.log(error);
+  });
+    // const acc = document.querySelector('.container');
+    // response.data.message.forEach(img => {
+    //   acc.append(createCard(img.split('/')[img.split('/').length - 2].toUpperCase(), img));
+    // })
+
+
 /* Step 2: Inspect and study the data coming back, this is YOUR 
    github info! You will need to understand the structure of this 
    data in order to use it to build your component function 
